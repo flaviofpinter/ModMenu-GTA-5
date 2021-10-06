@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net4.8</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="NativeUI">
+      <HintPath>..\..\nativeui\NativeUI.dll</HintPath>
+    </Reference>
+    <Reference Include="ScriptHookVDotNet2">
+      <HintPath>..\..\SDK\ScriptHookVDotNet2.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+
+</Project>
